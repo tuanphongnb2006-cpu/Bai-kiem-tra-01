@@ -2,10 +2,10 @@ Câu 1:Value Types và Reference Types(Stack vs Heap)
 Tiêu chí               	|Value Type                                    	      |Value Type
 Ví dụ                 	|-int, double, decimal, bool, char, struct, enum      |-class, string, array, interface, delegate, object
 Cái được lưu            |-Chính giá trị dữ liệu                               |-Địa chỉ(tham chiếu) trỏ tới đối tượng
-Vùng nhớ                |-Thường nằm trên Stack(biến cục bộ). Nếu là field   |-Biến tham chiếu nằm trên Stack, còn đối tượng thật nằm 
+Vùng nhớ                |-Thường nằm trên Stack(biến cục bộ). Nếu là field    |-Biến tham chiếu nằm trên Stack, còn đối tượng thật nằm 
                           của một class thì nằm trong đối tượng đó trên Heap  |trên Heap
 Khi gán b-a             |-Sao chép giá trị, hai biến độc lập                  |-Sao chép địa chỉ, hai biến cùng trỏ một đối tượng
-Giá trị null            |-Không nhận null(trừ khi dùng int?)                 |-Có thể là null
+Giá trị null            |-Không nhận null(trừ khi dùng int?)                  |-Có thể là null
 Giải phóng              |-Tự mất khi ra khỏi phạm vi                          |-	Do Garbage Collector(GC) dọn khi không còn tham chiếu
 
 Câu 2:Init-only Properties(init)
