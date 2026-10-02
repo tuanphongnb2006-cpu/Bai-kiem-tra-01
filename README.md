@@ -6,7 +6,7 @@ Vùng nhớ                |-Thường nằm trên Stack(biến cục bộ). N�
                           của một class thì nằm trong đối tượng đó trên Heap  |trên Heap
 Khi gán b-a             |-Sao chép giá trị, hai biến độc lập                  |-Sao chép địa chỉ, hai biến cùng trỏ một đối tượng
 Giá trị null            |-Không nhận null(trừ khi dùng int?)                  |-Có thể là null
-Giải phóng              |-Tự mất khi ra khỏi phạm vi                          |-	Do Garbage Collector(GC) dọn khi không còn tham chiếu
+Giải phóng              |-Tự mất khi ra khỏi phạm vi                          |-Do Garbage Collector(GC) dọn khi không còn tham chiếu
 
 Câu 2:Init-only Properties(init)
 -Thuộc tính set thông thường có thể gán lại giá trị ở bất kỳ lúc nào, bất kỳ đâu có quyền truy cập.
